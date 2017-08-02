@@ -3,7 +3,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath 'com.android.tools.build:gradle:2.0.0'
+    classpath 'com.android.tools.build:gradle:2.3.3'
     classpath 'com.dicedmelon.gradle:jacoco-android:0.1.1'
   }
 }
@@ -11,7 +11,7 @@ buildscript {
 ext {
   configCompileSdkVersion = 23
   configTargetSdkVersion = 23
-  configBuildToolsVersion = '23.0.3'
+  configBuildToolsVersion = '25.0.0'
 
   supportVersion = '23.1.1'
   support = [annotations: "com.android.support:support-annotations:$supportVersion",
